@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Electronic</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">D'Electronic</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="images/menu.png" class="menu-icono" alt="menu">
+            </label>
+                <div class="buscador" >
+                    <input type="search" id="bc" placeholder="buscar producto..."/>
+                </div>
+                
+            <nav class="navbar">
+                
+                <ul>
+                    <li><a href="login.html">Inicio</a></li>
+                    <li><a href="catalogos.html" target="_blank">Productos</a></li>
+                    <li><a href="contact.html" target="_blank">Contacto</a></li>
+                    <li><a href="about.html" target="_blank">about</a></li>
+                </ul>
+                
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <a href="login.html" target="_blank"><img src="images/usuario.png" id="user" width="25px"></a>
+                        <a href="carrito.html" target="_blank"><img src="images/car.svg"  id="img-carrito" alt="carrito" width="25px" height="25px"></a>
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-2" target="_blank">Vaciar carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+
+        <div class="header-content container">
+            <div class="header-img">
+                <img src="images/baston.png" alt="">
+            </div>
+            <div class="header-txt">
+                <h1>Ofertas especiales</h1>
+                <p>Compra las mejores herramientas</p>
+                <a href="catalogos.html" class="btn-1" target="_blank">informacion</a>
+            </div>
+        </div>
+
+    </header>
+
+
+    <section class="ofert container">
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/Laptop-2.png" alt=""> 
+            </div>
+            <div class="ofert-txt">
+                <h3>Laptops</h3>
+                <a href="catalogos.html" class="btn-2" target="_blank">informacion</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/playstations.png" alt=""> 
+            </div>
+            <div class="ofert-txt">
+                <h3>Games</h3>
+                <a href="catalogos.html" class="btn-2" target="_blank">informacion</a>
+            </div>
+        </div>
+
+        <div class="ofert-1">
+            <div class="ofert-img">
+                <img src="images/makina.png" alt=""> 
+            </div>
+            <div class="ofert-txt">
+                <h3>Belleza</h3>
+                <a href="catalogos.html" class="btn-2" target="_blank">informacion</a>
+            </div>
+        </div>
+    </section>
+
+
+    <main class="product container" id="lista-1">
+
+        <h2>Productos</h2>
+
+        <div class="product-content">
+            <div class="product">
+                <img src="images/pro-1.png"  alt=""> 
+                <div class="product-txt">
+                    <h3>Auriculares con cancelación de ruido Bose QuietComfort II, reacondicionados certificados</h3>
+                    <p>calidad premuim</p>
+                    <p class="precio"> $94</p>
+                    <a href="carrito.html" class="agregar-carrito btn-2" data-id="1" target="_blank">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="https://i.ebayimg.com/images/g/yLkAAOSwCsFlxe01/s-l960.png" alt=""> 
+                <div class="product-txt">
+                    <h3>Panel solar EcoFlow DELTA Pro 3600Wh + 400W generador solar certificado reacondicionado</h3>
+                    <p>calidad premuim</p>Ahora:
+                    <p class="precio"> RD $152 398.26</p>costaba:
+                    <p class="precio-1"  class="line"> RD $240 354.17</p>
+                    <a href="carrito.html" class="agregar-carrito btn-2" data-id="2" target="_blank">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/Tv.png" alt=""> 
+                <div class="product-txt">
+                    <h3>Smart TV LG OLED77C3P 77 pulgadas OLED evo C3 4K - Modelo 2023
+                        -</h3>
+                    <p>calidad premuim</p>
+                    <p class="precio"> US $1 871.00</p>
+                    <a href="carrito.html" class="agregar-carrito btn-2" data-id="3" target="_blank">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/dron.png" alt=""> 
+                <div class="product-txt">
+                    <h3>DJI Mini 2 Drone Ready To Fly 2 Paquete de Baterías y Memoria - Certificado Reacondicionado
+                        -</h3>
+                    <p>calidad premuim</p>
+                    <p class="precio"> US $339.00</p>
+                    <a href="carrito.html" class="agregar-carrito btn-2" data-id="4" target="_blank">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/laptop.png" alt=""> 
+                <div class="product-txt">
+                    <h3>Computadora portátil 2023 HP 17-CN3053CL 17,3" IPS FHD Intel Core i5-1335U 12 GB 512 GB SSD W11</h3>
+                    <p>calidad premuim</p>
+                    <p class="precio"> US $389.00</p>
+                    <a href="carrito.html" class="agregar-carrito btn-2" data-id="5" target="_blank">Agregar al carrito</a>
+                </div>
+            </div>
+
+            <div class="product">
+                <img src="images/reloj.png" alt=""> 
+                <div class="product-txt">
+                    <h3>Reloj inteligente Garmin Forerunner 45 GPS monitor de frecuencia cardíaca para correr - negro
+                        -</h3>
+                    <p>calidad premuim</p>
+                    <p class="precio">US $93.99</p>
+                    <a href="carrito.html" class="agregar-carrito btn-2" data-id="6" target="_blank">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="icons conatiner" >
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/circuito.png" width="70px" alt="">
+            </div>
+            <div class="icon-txt">
+                    <h3>Circuitos integrados</h3>
+                <p>
+                Prepara tu proyecto 
+                </p>
+                <p class="precio">US $93.99</p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/sensible.png" width="70px"  alt="">
+            </div>
+            <div class="icon-txt">
+                    <h3>Redes internas</h3>
+                <p>
+                Conecta tus dispositivos 
+                </p>
+                <p class="precio">US $93.99</p>
+            </div>
+        </div>
+
+        <div class="icon-1">
+            <div class="icon-img">
+                <img src="images/resistor.png" width="70px" alt="">
+            </div>
+            <div class="icon-txt">
+                    <h3>Componentes integrados</h3>
+                <p>
+                Todo para tu proyectos
+                </p>
+                  <p class="precio">US $93.99</p>
+            </div>
+        </div>
+    </section>
+    <section class="blog container">
+
+        <div class="blog-1">
+            <a href="catalogos.html" target="_blank"><img src="images/piesas.png" alt="" ></a>
+            <h3>Obten-15% en refacciones</h3>
+        </div>
+
+		<div class="blog-1">
+            <a href="catalogos.html" target="_blank"><img src="images/moto.png" alt="" ></a>
+            <h3>Moto y todoterreno</h3>
+        </div>
+
+		<div class="blog-1">
+            <a href="catalogos.html" target="_blank"><img src="images/smartwacht.png" alt="" ></a>
+            <h3>relojes inteligentes</h3>
+        </div>
+
+        
+
+
+    </section>
+    <footer class="footer">
+        <div class="footer__addr">
+          <h2>Contact</h2>
+          <address>
+            DDD@gmail.com<br>
+            <a class="footer__btn" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl" target="_blank">Email Us</a>
+          </address>
+        </div>
+          <li class="nav__item">
+            <h2 class="nav__title">Legal</h2>
+            <ul class="nav__ul">
+              <li>
+                <p>Privacy Policy</p>
+              </li>
+              <li>
+                <p>Terms of Use</p>
+              </li>
+              
+              <li>
+                <p>Sitemap</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="legal">
+          <p>&copy; 2024 Something. All rights reserved.</p>
+          <div class="legal__links">
+            <span>Hecho para trabajar<span class="heart"></span> remotamente desde cualquier lugar</span>
+          </div>
+        </div>
+      </footer>
+    
+</body>
+</html>
